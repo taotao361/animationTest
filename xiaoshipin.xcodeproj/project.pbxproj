@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC1E13DC1DE31E1300EB0164 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1E13DB1DE31E1300EB0164 /* 3.png */; };
+		BC1E13DF1DE3FA6800EB0164 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1E13DD1DE3FA6800EB0164 /* 2.png */; };
+		BC1E13E01DE3FA6800EB0164 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1E13DE1DE3FA6800EB0164 /* 1.png */; };
+		BCA704F81DDEFA0300A4ED27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA704F71DDEFA0300A4ED27 /* main.m */; };
+		BCA704FB1DDEFA0300A4ED27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA704FA1DDEFA0300A4ED27 /* AppDelegate.m */; };
+		BCA704FE1DDEFA0300A4ED27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA704FD1DDEFA0300A4ED27 /* ViewController.m */; };
+		BCA705011DDEFA0300A4ED27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCA704FF1DDEFA0300A4ED27 /* Main.storyboard */; };
+		BCA705031DDEFA0300A4ED27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCA705021DDEFA0300A4ED27 /* Assets.xcassets */; };
+		BCA705061DDEFA0300A4ED27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCA705041DDEFA0300A4ED27 /* LaunchScreen.storyboard */; };
+		BCA705111DDEFA0300A4ED27 /* xiaoshipinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA705101DDEFA0300A4ED27 /* xiaoshipinTests.m */; };
+		BCA7051C1DDEFA0300A4ED27 /* xiaoshipinUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA7051B1DDEFA0300A4ED27 /* xiaoshipinUITests.m */; };
+		BCA7052B1DDF0C3B00A4ED27 /* videoView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA7052A1DDF0C3B00A4ED27 /* videoView.m */; };
+		BDC9FEFF00DE748C0A6B1A17 /* libPods-xiaoshipin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF75AE1D41686CB652BBEAC5 /* libPods-xiaoshipin.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCA7050D1DDEFA0300A4ED27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCA704EB1DDEFA0300A4ED27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCA704F21DDEFA0300A4ED27;
+			remoteInfo = xiaoshipin;
+		};
+		BCA705181DDEFA0300A4ED27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCA704EB1DDEFA0300A4ED27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCA704F21DDEFA0300A4ED27;
+			remoteInfo = xiaoshipin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A6E24A17583B9A371CF35DF /* Pods-xiaoshipin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xiaoshipin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-xiaoshipin/Pods-xiaoshipin.debug.xcconfig"; sourceTree = "<group>"; };
+		BC1E13DB1DE31E1300EB0164 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		BC1E13DD1DE3FA6800EB0164 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		BC1E13DE1DE3FA6800EB0164 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		BCA704F31DDEFA0300A4ED27 /* xiaoshipin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xiaoshipin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA704F71DDEFA0300A4ED27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCA704F91DDEFA0300A4ED27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BCA704FA1DDEFA0300A4ED27 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BCA704FC1DDEFA0300A4ED27 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BCA704FD1DDEFA0300A4ED27 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BCA705001DDEFA0300A4ED27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCA705021DDEFA0300A4ED27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCA705051DDEFA0300A4ED27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCA705071DDEFA0300A4ED27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCA7050C1DDEFA0300A4ED27 /* xiaoshipinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xiaoshipinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA705101DDEFA0300A4ED27 /* xiaoshipinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xiaoshipinTests.m; sourceTree = "<group>"; };
+		BCA705121DDEFA0300A4ED27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCA705171DDEFA0300A4ED27 /* xiaoshipinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xiaoshipinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA7051B1DDEFA0300A4ED27 /* xiaoshipinUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xiaoshipinUITests.m; sourceTree = "<group>"; };
+		BCA7051D1DDEFA0300A4ED27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCA705291DDF0C3B00A4ED27 /* videoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = videoView.h; sourceTree = "<group>"; };
+		BCA7052A1DDF0C3B00A4ED27 /* videoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = videoView.m; sourceTree = "<group>"; };
+		CF75AE1D41686CB652BBEAC5 /* libPods-xiaoshipin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-xiaoshipin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F153FBEE1585C253568DB60A /* Pods-xiaoshipin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xiaoshipin.release.xcconfig"; path = "Pods/Target Support Files/Pods-xiaoshipin/Pods-xiaoshipin.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCA704F01DDEFA0300A4ED27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDC9FEFF00DE748C0A6B1A17 /* libPods-xiaoshipin.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA705091DDEFA0300A4ED27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA705141DDEFA0300A4ED27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B673A81EE8A90AFFDD3040C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF75AE1D41686CB652BBEAC5 /* libPods-xiaoshipin.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCA704EA1DDEFA0300A4ED27 = {
+			isa = PBXGroup;
+			children = (
+				BCA704F51DDEFA0300A4ED27 /* xiaoshipin */,
+				BCA7050F1DDEFA0300A4ED27 /* xiaoshipinTests */,
+				BCA7051A1DDEFA0300A4ED27 /* xiaoshipinUITests */,
+				BCA704F41DDEFA0300A4ED27 /* Products */,
+				CD39015A10E7A505C8038050 /* Pods */,
+				B673A81EE8A90AFFDD3040C6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BCA704F41DDEFA0300A4ED27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCA704F31DDEFA0300A4ED27 /* xiaoshipin.app */,
+				BCA7050C1DDEFA0300A4ED27 /* xiaoshipinTests.xctest */,
+				BCA705171DDEFA0300A4ED27 /* xiaoshipinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCA704F51DDEFA0300A4ED27 /* xiaoshipin */ = {
+			isa = PBXGroup;
+			children = (
+				BC1E13DB1DE31E1300EB0164 /* 3.png */,
+				BC1E13DD1DE3FA6800EB0164 /* 2.png */,
+				BC1E13DE1DE3FA6800EB0164 /* 1.png */,
+				BCA704F91DDEFA0300A4ED27 /* AppDelegate.h */,
+				BCA704FA1DDEFA0300A4ED27 /* AppDelegate.m */,
+				BCA704FC1DDEFA0300A4ED27 /* ViewController.h */,
+				BCA704FD1DDEFA0300A4ED27 /* ViewController.m */,
+				BCA705291DDF0C3B00A4ED27 /* videoView.h */,
+				BCA7052A1DDF0C3B00A4ED27 /* videoView.m */,
+				BCA704FF1DDEFA0300A4ED27 /* Main.storyboard */,
+				BCA705021DDEFA0300A4ED27 /* Assets.xcassets */,
+				BCA705041DDEFA0300A4ED27 /* LaunchScreen.storyboard */,
+				BCA705071DDEFA0300A4ED27 /* Info.plist */,
+				BCA704F61DDEFA0300A4ED27 /* Supporting Files */,
+			);
+			path = xiaoshipin;
+			sourceTree = "<group>";
+		};
+		BCA704F61DDEFA0300A4ED27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCA704F71DDEFA0300A4ED27 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCA7050F1DDEFA0300A4ED27 /* xiaoshipinTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCA705101DDEFA0300A4ED27 /* xiaoshipinTests.m */,
+				BCA705121DDEFA0300A4ED27 /* Info.plist */,
+			);
+			path = xiaoshipinTests;
+			sourceTree = "<group>";
+		};
+		BCA7051A1DDEFA0300A4ED27 /* xiaoshipinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCA7051B1DDEFA0300A4ED27 /* xiaoshipinUITests.m */,
+				BCA7051D1DDEFA0300A4ED27 /* Info.plist */,
+			);
+			path = xiaoshipinUITests;
+			sourceTree = "<group>";
+		};
+		CD39015A10E7A505C8038050 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A6E24A17583B9A371CF35DF /* Pods-xiaoshipin.debug.xcconfig */,
+				F153FBEE1585C253568DB60A /* Pods-xiaoshipin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCA704F21DDEFA0300A4ED27 /* xiaoshipin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCA705201DDEFA0300A4ED27 /* Build configuration list for PBXNativeTarget "xiaoshipin" */;
+			buildPhases = (
+				1D746E569683C76D6A728BA5 /* Check Pods Manifest.lock */,
+				BCA704EF1DDEFA0300A4ED27 /* Sources */,
+				BCA704F01DDEFA0300A4ED27 /* Frameworks */,
+				BCA704F11DDEFA0300A4ED27 /* Resources */,
+				2F83C45DE62BB978C13C69E2 /* Embed Pods Frameworks */,
+				2DC4895114D16FA7A748A271 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = xiaoshipin;
+			productName = xiaoshipin;
+			productReference = BCA704F31DDEFA0300A4ED27 /* xiaoshipin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCA7050B1DDEFA0300A4ED27 /* xiaoshipinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCA705231DDEFA0300A4ED27 /* Build configuration list for PBXNativeTarget "xiaoshipinTests" */;
+			buildPhases = (
+				BCA705081DDEFA0300A4ED27 /* Sources */,
+				BCA705091DDEFA0300A4ED27 /* Frameworks */,
+				BCA7050A1DDEFA0300A4ED27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCA7050E1DDEFA0300A4ED27 /* PBXTargetDependency */,
+			);
+			name = xiaoshipinTests;
+			productName = xiaoshipinTests;
+			productReference = BCA7050C1DDEFA0300A4ED27 /* xiaoshipinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCA705161DDEFA0300A4ED27 /* xiaoshipinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCA705261DDEFA0300A4ED27 /* Build configuration list for PBXNativeTarget "xiaoshipinUITests" */;
+			buildPhases = (
+				BCA705131DDEFA0300A4ED27 /* Sources */,
+				BCA705141DDEFA0300A4ED27 /* Frameworks */,
+				BCA705151DDEFA0300A4ED27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCA705191DDEFA0300A4ED27 /* PBXTargetDependency */,
+			);
+			name = xiaoshipinUITests;
+			productName = xiaoshipinUITests;
+			productReference = BCA705171DDEFA0300A4ED27 /* xiaoshipinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCA704EB1DDEFA0300A4ED27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = yangxutao;
+				TargetAttributes = {
+					BCA704F21DDEFA0300A4ED27 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9FA65VMFDP;
+						ProvisioningStyle = Automatic;
+					};
+					BCA7050B1DDEFA0300A4ED27 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BCA704F21DDEFA0300A4ED27;
+					};
+					BCA705161DDEFA0300A4ED27 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BCA704F21DDEFA0300A4ED27;
+					};
+				};
+			};
+			buildConfigurationList = BCA704EE1DDEFA0300A4ED27 /* Build configuration list for PBXProject "xiaoshipin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCA704EA1DDEFA0300A4ED27;
+			productRefGroup = BCA704F41DDEFA0300A4ED27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCA704F21DDEFA0300A4ED27 /* xiaoshipin */,
+				BCA7050B1DDEFA0300A4ED27 /* xiaoshipinTests */,
+				BCA705161DDEFA0300A4ED27 /* xiaoshipinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCA704F11DDEFA0300A4ED27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC1E13E01DE3FA6800EB0164 /* 1.png in Resources */,
+				BC1E13DC1DE31E1300EB0164 /* 3.png in Resources */,
+				BCA705061DDEFA0300A4ED27 /* LaunchScreen.storyboard in Resources */,
+				BC1E13DF1DE3FA6800EB0164 /* 2.png in Resources */,
+				BCA705031DDEFA0300A4ED27 /* Assets.xcassets in Resources */,
+				BCA705011DDEFA0300A4ED27 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA7050A1DDEFA0300A4ED27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA705151DDEFA0300A4ED27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D746E569683C76D6A728BA5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2DC4895114D16FA7A748A271 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-xiaoshipin/Pods-xiaoshipin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F83C45DE62BB978C13C69E2 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-xiaoshipin/Pods-xiaoshipin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCA704EF1DDEFA0300A4ED27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA7052B1DDF0C3B00A4ED27 /* videoView.m in Sources */,
+				BCA704FE1DDEFA0300A4ED27 /* ViewController.m in Sources */,
+				BCA704FB1DDEFA0300A4ED27 /* AppDelegate.m in Sources */,
+				BCA704F81DDEFA0300A4ED27 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA705081DDEFA0300A4ED27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA705111DDEFA0300A4ED27 /* xiaoshipinTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA705131DDEFA0300A4ED27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA7051C1DDEFA0300A4ED27 /* xiaoshipinUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCA7050E1DDEFA0300A4ED27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCA704F21DDEFA0300A4ED27 /* xiaoshipin */;
+			targetProxy = BCA7050D1DDEFA0300A4ED27 /* PBXContainerItemProxy */;
+		};
+		BCA705191DDEFA0300A4ED27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCA704F21DDEFA0300A4ED27 /* xiaoshipin */;
+			targetProxy = BCA705181DDEFA0300A4ED27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCA704FF1DDEFA0300A4ED27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCA705001DDEFA0300A4ED27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCA705041DDEFA0300A4ED27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCA705051DDEFA0300A4ED27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCA7051E1DDEFA0300A4ED27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BCA7051F1DDEFA0300A4ED27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCA705211DDEFA0300A4ED27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A6E24A17583B9A371CF35DF /* Pods-xiaoshipin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9FA65VMFDP;
+				INFOPLIST_FILE = xiaoshipin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.xiaoshipin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCA705221DDEFA0300A4ED27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F153FBEE1585C253568DB60A /* Pods-xiaoshipin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9FA65VMFDP;
+				INFOPLIST_FILE = xiaoshipin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.xiaoshipin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BCA705241DDEFA0300A4ED27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = xiaoshipinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.xiaoshipinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xiaoshipin.app/xiaoshipin";
+			};
+			name = Debug;
+		};
+		BCA705251DDEFA0300A4ED27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = xiaoshipinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.xiaoshipinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xiaoshipin.app/xiaoshipin";
+			};
+			name = Release;
+		};
+		BCA705271DDEFA0300A4ED27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = xiaoshipinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.xiaoshipinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = xiaoshipin;
+			};
+			name = Debug;
+		};
+		BCA705281DDEFA0300A4ED27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = xiaoshipinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.xiaoshipinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = xiaoshipin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCA704EE1DDEFA0300A4ED27 /* Build configuration list for PBXProject "xiaoshipin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA7051E1DDEFA0300A4ED27 /* Debug */,
+				BCA7051F1DDEFA0300A4ED27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCA705201DDEFA0300A4ED27 /* Build configuration list for PBXNativeTarget "xiaoshipin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA705211DDEFA0300A4ED27 /* Debug */,
+				BCA705221DDEFA0300A4ED27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCA705231DDEFA0300A4ED27 /* Build configuration list for PBXNativeTarget "xiaoshipinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA705241DDEFA0300A4ED27 /* Debug */,
+				BCA705251DDEFA0300A4ED27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCA705261DDEFA0300A4ED27 /* Build configuration list for PBXNativeTarget "xiaoshipinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA705271DDEFA0300A4ED27 /* Debug */,
+				BCA705281DDEFA0300A4ED27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCA704EB1DDEFA0300A4ED27 /* Project object */;
+}

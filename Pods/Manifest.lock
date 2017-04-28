@@ -1,0 +1,10 @@
+PODS:
+  - PKShortVideo (0.9.4)
+
+DEPENDENCIES:
+  - PKShortVideo
+
+SPEC CHECKSUMS:
+  PKShortVideo: 201c2c166ede4b52e915a79f5148483903b7b2b3
+
+COCOAPODS: 0.39.0
